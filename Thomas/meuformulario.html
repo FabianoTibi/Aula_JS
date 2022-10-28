@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Pessoal</title>
+    <link rel="stylesheet" href="meuformulario.css">
+
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro Pessoal</h1>
+        <p id="subtitulo">Complete as informações solicitadas:</p>
+    </div>
+
+    <form>
+        <fieldset>
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            
+            <div>
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            
+            <div>
+                <label for="nome-mae"><strong>Nome da Mãe</strong></label>
+                <input type="text" name="nome-mae" id="nome-mae" required>
+            </div>
+
+            <div>
+                <label for="dt-nasc"><strong>Data de Nascimento</strong></label>
+                <input type="date" name="dt-nasc" id="dt-nasc" required>
+            </div>
+
+            <div>
+                <label for="idade"><strong>Idade</strong></label>
+                <input type="text" name="idade" id="idade">
+            </div>
+
+            <div>
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="Estado">Estado </label>
+                <select name="estado" id=""> estado
+                    <option value="selecione"> Selecione </option>
+                    <option value="SP"> São Paulo </option>
+                    <option value="MG">Minas Gerais </option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value=""></option>
+
+              </select>
+            </div>
+            
+            <div>
+                <label for="sexo"> Sexo </label>
+                <select name="sexo" id="">Sexo
+                    <option value="">Selecione</option>
+                    <option value="">Masculino</option>
+                    <option value="">Feminino</option>
+                    <option value="">Outro</option>
+
+              </select>
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <div>
+                <label for=""><strong>Informe quais as atividades fisicas pratica:</strong></label>
+                <input type="checkbox">
+                <label for="">Natação</label>
+                <input type="checkbox">
+                <label for="">Futebol</label>
+                <input type="checkbox">
+                <label for="">Caminhada</label>
+                <input type="checkbox">
+                <label for="">Corrida</label>
+                <input type="checkbox">
+                <label for="">Musculação</label> <br>
+                <label for="">Outra atividade</label>
+                <input type="text">
+            </div>
+
+            <div>
+                <label for="comentario"><strong>Comentario Extra:</strong></label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"  placeholder="Insira aqui informações que achar necessário."></textarea>
+
+            </div>
+            <div>
+                <input type="submit" value="Pronto, enviar.">
+                <input type="reset" value="Apagar dados">                
+            </div>
+        </fieldset>
+
+    </form>
+
+</body>
+</html>

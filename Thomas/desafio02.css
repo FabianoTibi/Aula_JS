@@ -1,0 +1,52 @@
+*{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin:100px;
+    text-align: center;
+
+}
+
+div{
+    display: inline-block;
+    text-align: left;
+}
+
+h1{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#primeiro{
+      
+}
+
+#segundo{
+    
+}
+
+img{
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.card1, .card2{
+    padding: 5px;
+    width: 250px;
+    text-align: left;
+    height: 150px;
+}
+
+#primeiro :hover, #segundo :hover{
+    background-color: gray;
+    transition: 0.5s;
+    opacity: 0.7;
+}

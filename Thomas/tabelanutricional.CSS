@@ -1,0 +1,40 @@
+*{
+    margin: 10;
+    padding: 0;
+}
+table{
+    border-color: red;
+    border: 2px;
+    width: 100%;
+}
+
+#principal{
+    border: 2px solid black;
+    border-radius: 2%;
+    background-color: aliceblue;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+body{
+   padding: 100px;
+   background-color: black;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.dados{
+    text-align: center;
+}
+
+p{
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+
+h2, h4{
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
